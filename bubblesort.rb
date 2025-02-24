@@ -5,7 +5,6 @@ def bubble_sort(array)
     sorted_array.each_with_index do | number, index |
       if index + 1 < sorted_array.length
         if number > sorted_array[index+1] 
-            #temp = number
             sorted_array[index] = sorted_array[index+1]
             sorted_array[index+1] = number 
          end
